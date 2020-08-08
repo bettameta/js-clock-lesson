@@ -17,7 +17,7 @@ body{
 .clock{
     width: 400px;
     height: 400px;
-    background-color: rgb(221, 228, 211, .8);
+    background-color: rgb(221, 228, 211, .6);
     border-radius: 50%;
     border: 2px solid #1b1d1c;
     position: relative;
@@ -34,25 +34,25 @@ body{
     font-size: 1.5rem;
 
 }
-.clock .number1 { --rotation: 30deg}
-.clock .number2 { --rotation: 60deg}
-.clock .number3 { --rotation: 90deg}
-.clock .number4 { --rotation: 120deg}
-.clock .number5 { --rotation: 150deg}
-.clock .number6 { --rotation: 180deg}
-.clock .number7 { --rotation: 210deg}
-.clock .number8 { --rotation: 240deg}
-.clock .number9 { --rotation: 270deg}
-.clock .number10 { --rotation: 300deg}
-.clock .number11 { --rotation: 330deg}
+.clock .number1 { --rotation: 30deg;  }
+.clock .number2 { --rotation: 60deg; }
+.clock .number3 { --rotation: 90deg; }
+.clock .number4 { --rotation: 120deg; }
+.clock .number5 { --rotation: 150deg; }
+.clock .number6 { --rotation: 180deg; }
+.clock .number7 { --rotation: 210deg; }
+.clock .number8 { --rotation: 240deg; }
+.clock .number9 { --rotation: 270deg; }
+.clock .number10 { --rotation: 300deg; }
+.clock .number11 { --rotation: 330deg; }
 
 .clock .hand{
     --rotation: 0;
     position: absolute;
     bottom: 50%;
-    left: 50%;
-   
+    left: 50%;   
     border: 1px solid #a58853;
+/*-------- POSITIONING FOR THE HANDS ---------*/
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     transform-origin: bottom;
